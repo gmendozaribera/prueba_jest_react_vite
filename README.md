@@ -3,10 +3,12 @@
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 //Crear otro proyecto de 0 y como guia este entonces
+
 yarn create vite
 //    después asigna nombre al proyecto
 //    selecciona el framework react
 //    selecciona la variante react la cual trabaja con javascript, la otra con ts trabaja con typescript
+
 cd nombre_proyecto
 yarn install
 yarn add prop-types
@@ -34,6 +36,7 @@ yarn add --dev babel-jest @babel/core @babel/preset-env
        testEnvironment: 'jest-environment-jsdom',
        setupFile: ['./jest.setup.js']
    }
+
 //Crear archivo jest.setup.js
    import 'whatwg-fetch';
 yarn add -D whatwg-fetch
